@@ -1,5 +1,9 @@
 # CLAN Studio Toolkits - Icon Creator
 
+下载地址：[clan_studio_lib_cstk_icon_creator-1.0.0.1.vip](https://github.com/clan4456/CSTK_Icon_Creator/releases/download/v1.0.0.1/clan_studio_lib_cstk_icon_creator-1.0.0.1.vip)
+
+SHA-256：3a297c5a6588154b9eca7ed7f3f5f266be6f316f26b662ca6b70933bd54aa763
+
 ## 1. 简介
 
 ![Snipaste_2022-10-20_14-57-51.png](http://pic2.clan4456.com/clan-picgo-core/images/2022/10/20/Snipaste_2022-10-20_14-57-51-d63c19ac2ca6cb12f6296461605eca9c.png!small)
