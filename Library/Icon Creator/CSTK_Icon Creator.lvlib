@@ -34,23 +34,8 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Template" Type="Folder">
-		<Item Name="CLAN" Type="Folder">
-			<Item Name="Icon_1.png" Type="Document" URL="../Template/CLAN/Icon_1.png"/>
-			<Item Name="Icon_2.png" Type="Document" URL="../Template/CLAN/Icon_2.png"/>
-			<Item Name="Icon_3.png" Type="Document" URL="../Template/CLAN/Icon_3.png"/>
-			<Item Name="Icon_4.png" Type="Document" URL="../Template/CLAN/Icon_4.png"/>
-			<Item Name="Icon_Ctl.png" Type="Document" URL="../Template/CLAN/Icon_Ctl.png"/>
-		</Item>
-		<Item Name="Default" Type="Folder">
-			<Item Name="Icon_1.png" Type="Document" URL="../Template/Default/Icon_1.png"/>
-			<Item Name="Icon_2.png" Type="Document" URL="../Template/Default/Icon_2.png"/>
-			<Item Name="Icon_3.png" Type="Document" URL="../Template/Default/Icon_3.png"/>
-			<Item Name="Icon_4.png" Type="Document" URL="../Template/Default/Icon_4.png"/>
-			<Item Name="Icon_Ctl.png" Type="Document" URL="../Template/Default/Icon_Ctl.png"/>
-		</Item>
-	</Item>
 	<Item Name="CSTK_Icon_Creator_Dialog.vi" Type="VI" URL="../CSTK_Icon_Creator_Dialog.vi"/>
+	<Item Name="CSTK_Icon_Creator_Dialong_CreateLogo.vi" Type="VI" URL="../CSTK_Icon_Creator_Dialong_CreateLogo.vi"/>
 	<Item Name="CSTK_Icon_Creator_Dialong_InputPath.vi" Type="VI" URL="../CSTK_Icon_Creator_Dialong_InputPath.vi"/>
 	<Item Name="CSTK_Icon_Creator_Insert.vi" Type="VI" URL="../CSTK_Icon_Creator_Insert.vi"/>
 	<Item Name="CSTK_Icon_Creator_Insert_MainBGColor.vi" Type="VI" URL="../CSTK_Icon_Creator_Insert_MainBGColor.vi"/>
@@ -61,4 +46,11 @@
 	<Item Name="CSTK_Icon_Creator_Save.vi" Type="VI" URL="../CSTK_Icon_Creator_Save.vi"/>
 	<Item Name="CSTK_Icon_Creator_TemplateItems.vi" Type="VI" URL="../CSTK_Icon_Creator_TemplateItems.vi"/>
 	<Item Name="CSTK_Icon_Creator_Template.ctl" Type="VI" URL="../CSTK_Icon_Creator_Template.ctl"/>
+	<Item Name="CSTK_Icon_Creator_Dialong_CreateLogo_CoordsToArrayIndex.vi" Type="VI" URL="../CSTK_Icon_Creator_Dialong_CreateLogo_CoordsToArrayIndex.vi"/>
+	<Item Name="CSTK_Icon_Creator_CreateLogo_JudgePath.vi" Type="VI" URL="../CSTK_Icon_Creator_CreateLogo_JudgePath.vi"/>
+	<Item Name="CSTK_Icon_Creator_CreateLogo_InputPath.vi" Type="VI" URL="../CSTK_Icon_Creator_CreateLogo_InputPath.vi"/>
+	<Item Name="CSTK_Icon_Creator_CreateLogo.vi" Type="VI" URL="../CSTK_Icon_Creator_CreateLogo.vi"/>
+	<Item Name="CSTK_Icon_Creator_CreateLogo_IconTemplate.vi" Type="VI" URL="../CSTK_Icon_Creator_CreateLogo_IconTemplate.vi"/>
+	<Item Name="CSTK_Icon_Creator_CreateLogo_ColorToLogo.vi" Type="VI" URL="../CSTK_Icon_Creator_CreateLogo_ColorToLogo.vi"/>
+	<Item Name="CSTK_Icon_Creator_CreateLogo_InputImage.vi" Type="VI" URL="../CSTK_Icon_Creator_CreateLogo_InputImage.vi"/>
 </Library>
