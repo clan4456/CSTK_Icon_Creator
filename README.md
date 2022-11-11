@@ -36,7 +36,7 @@ FontCodePageList=Small Fonts,1252
 
 ## 5. 安装Icon Creator
 
-下载Release中的`clan_studio_lib_cstk_icon_creator-1.0.0.2.vip`，并双击通过VIPM进行安装。（需安装VIPM 2014或以上版本）
+下载Release中的`clan_studio_lib_cstk_icon_creator-1.0.0.2.vip`，并双击通过VIPM进行安装。（需安装VIPM 2017或以上版本）
 
 ## 6. 打开Icon Creator
 
