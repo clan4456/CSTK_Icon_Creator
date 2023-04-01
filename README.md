@@ -2,13 +2,13 @@
 
 仓库地址：[CSTK_Icon_Creator](https://github.com/clan4456/CSTK_Icon_Creator)
 
-下载地址：[clan_studio_lib_cstk_icon_creator-1.0.0.2.vip](https://github.com/clan4456/CSTK_Icon_Creator/releases/download/v1.0.0.2/clan_studio_lib_cstk_icon_creator-1.0.0.2.vip)
+下载地址：[clan_studio_lib_cstk_icon_creator-1.0.0.3.vip](https://github.com/clan4456/CSTK_Icon_Creator/releases/download/v1.0.0.3/clan_studio_lib_cstk_icon_creator-1.0.0.3.vip)
 
-SHA-256：ed1f25c5847d038968d6842efdf03814b86a03f1b4c87667276173b8b46315d2
+SHA-256：2c51600e15e231155ff5b91ff82a91762ed9329b28fe34f2522e5441a3bdb87e
 
 ## 1. 简介
 
-![IconCreator_v1.0.0.2.gif](http://pic2.clan4456.com/clan-picgo-core/images/2022/11/07/IconCreator_v1.0.0.2-8ddc9e8f8c93899f2858665054e422e3.gif)
+![IconCreator_v1.0.0.2.gif](Images/fd5f6d4e30d915063dade5ad2aa9ba0eaf809bd4.gif)
 
 本工具主要用于生成规范化图标模板，左上角为可配置的自定义标志，右上角为图标模板标题，无标志情况下支持7个字符，有标志情况下支持5个字符。标题字体可选择 Small Fonts 或 6px2bus 。 Small Fonts 为 LabVIEW 开发环境安装时自带， 6px2bus 字体安装方式详见下文。标题字体颜色、标题背景颜色、主题背景颜色均可自定义。
 
@@ -16,11 +16,18 @@ SHA-256：ed1f25c5847d038968d6842efdf03814b86a03f1b4c87667276173b8b46315d2
 
 保存的图标模板一共5个，其中通用模板4个（1~4），控件模板1个（Ctl）。
 
-![Snipaste_2022-10-20_15-08-38.png](http://pic2.clan4456.com/clan-picgo-core/images/2022/10/20/Snipaste_2022-10-20_15-08-38-4a38673d9e3fd4db3cff6ee67d3d27b4.png!small)
+![Snipaste_2022-10-20_15-08-38.png](Images/6d2a466eaa37588db0027a07321c447938db0585.png)
 
 ## 2. 前置库
 
-本工具使用到`OpenG Array Library`和`OpenG File Library`两个OpenG库，需通过VIPM提前安装，亦可在安装本工具时自动安装。
+本工具使用以下的OpenG库，需通过VIPM提前安装，也可在安装本工具时自动安装，同时也可下载本仓库中的前置库离线安装包 [CSTK_Icon_Creator.vipc](CSTK_Icon_Creator.vipc) 。
+
+- OpenG File Library >= 4.0.1.22
+- OpenG Array Library >= 4.1.1.14
+- OpenG Variant Data Library >= 5.0.0.27
+- OpenG String Library >= 5.0.0.25
+- OpenG Error Library >= 4.2.0.23
+- OpenG Application Control Library >= 4.1.0.7
 
 ## 3. 字体安装
 
@@ -36,11 +43,11 @@ FontCodePageList=Small Fonts,1252
 
 ## 5. 安装Icon Creator
 
-下载Release中的`clan_studio_lib_cstk_icon_creator-1.0.0.2.vip`，并双击通过VIPM进行安装。（需安装VIPM 2017或以上版本）
+下载Release中的`clan_studio_lib_cstk_icon_creator-1.0.0.3.vip`，并双击通过VIPM进行安装。（需安装VIPM 2017或以上版本）
 
 ## 6. 打开Icon Creator
 
-![Snipaste_2022-11-07_12-53-13.png](http://pic2.clan4456.com/clan-picgo-core/images/2022/11/07/Snipaste_2022-11-07_12-53-13-e48966bebc043308ddcd739d8e258100.png!small)
+![Snipaste_2022-11-07_12-53-13.png](Images/d152a58039e9b5a2322e69f6fe7cdd18c11be36d.png)
 
 安装 ***Icon Creator*** 后，可通过LabVIEW的“工具”-->“CLAN Studio Toolkits”-->“CSTK_Icon_Creator”打开。
 
@@ -48,11 +55,11 @@ FontCodePageList=Small Fonts,1252
 
 在生成并保存图标模板后，只需打开图标编辑器，点击“模板”中的刷新按钮，即可看到刚才生成的图标模板。
 
-![Snipaste_2022-10-20_15-27-53.png](http://pic2.clan4456.com/clan-picgo-core/images/2022/10/20/Snipaste_2022-10-20_15-27-53-a89aa47b1e9604c860199e6a932f25f3.png!small)
+![Snipaste_2022-10-20_15-27-53.png](Images/3d665316fea4415842c2713eb88a17dd9e16b0a6.png)
 
 ## 8. 自定义标志
 
-![Snipaste_2022-11-07_12-55-39.png](http://pic2.clan4456.com/clan-picgo-core/images/2022/11/07/Snipaste_2022-11-07_12-55-39-275a36359e5148722f6731c2fcb03a8a.png!small)
+![Snipaste_2022-11-07_12-55-39.png](Images/3450c6c15f3de378b667f8473e6bc71371d113d7.png)
 
 从v1.0.0.2版本起，本工具支持直接绘制自定义LOGO标志，可通过点击右下角`自定义LOGO`按钮，弹出自定义LOGO画板进行绘制。
 
@@ -62,13 +69,17 @@ FontCodePageList=Small Fonts,1252
 
 ## 9. 已知bug
 
-暂未发现
+- `[v1.0.0.3 已修复]` 创建自定义LOGO标志，保存给空值时没做错误处理，导致保存出错卡死。（感谢群友 `🐜红颜妃子笑🐜` 和 `三多` 反馈此bug）
 
 ## 10. 开源许可
 
 本工具遵循BSD开源协议，可任意分发或二次开发使用。但需保留UI界面上的CLAN Studio标志即可。
 
 ## 11. 更新记录
+
+### v1.0.0.3_20230401
+
+- fix bug: 创建自定义LOGO标志，保存给空值时没做错误处理，导致保存出错卡死。
 
 ### v1.0.0.2_20221107
 
